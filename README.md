@@ -1,3 +1,7 @@
 # thesis
-Code and documents, as part of the AE5810 thesis.
-Please ???
+The documents as part of the AE5810 thesis are listed here.
+
+Overview:
+- Literature study
+- Thesis proposal
+- Thesis
