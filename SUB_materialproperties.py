@@ -19,7 +19,7 @@ def fun1(material):
         kM = 385 #Thermal conductivity [W/mK]
         emM = 0.65 #Emissivity [-] assuming oxide layer (0.70 by Leenders (although 0.77-0.87 in tables, the latter being oxidized copper), 0.63 by other sources, 0.65 by Leenders page 112)
         absoM = 0.98 #Absorptivity [-] assuming oxide layer
-        T_maxM = 1084 #Maximum operating temperature [degrees Celsius]
+        T_maxM = 1358.0 #Melting temperature [K]
         NISTM = [[17.72891],[28.09870],[-31.25289],[13.97243],[0.068611]] #Specific heat capacity matrix (NIST) [J/kg K]
         limitsM = [1358.0,1e10,1e10] #[K], NIST limits
         MMM = 63.546e-3 #Molar mass [kg/mol]
@@ -30,7 +30,7 @@ def fun1(material):
         kM = 173 #Thermal conductivity [W/mK]
         emM = 0.27 #Emissivity [-]
         absoM = 0.60 #Absorptivity [-]
-        T_maxM = 3400 #Maximum operating temperature [degrees Celsius]
+        T_maxM = 3680.0 #Melting temperature [K]
         NISTM = [[23.95930,-22.57640],[2.639680,90.27980],[1.257750,-44.27150],[-0.254642,7.176630],[-0.048407,-24.09740]] #Specific heat capacity matrix (NIST) [J/kg/K]
         limitsM = [1900.0,3680.0,1e10] #[K], NIST limits
         MMM = 183.84e-3 #Molar mass [kg/mol]
@@ -41,7 +41,7 @@ def fun1(material):
         kM = 140 #Thermal conductivity [W/mK]
         emM = 0.18 #Emissivity [-]
         absoM = 0.56 #Absorptivity [-]
-        T_maxM = 2620 #Maximum operating temperature [degrees Celsius]
+        T_maxM = 2896.0 #Melting temperature [K]
         NISTM = [[24.72736,1231.192],[3.960425,-963.4246],[-1.270706,283.7292],[1.153065,-28.04100],[-0.170246,-712.2047]] #Specific heat capacity matrix (NIST) [J/kg/K]
         limitsM = [1900.0,2896.0,1e10] #[K], NIST limits
         MMM = 95.96e-3 #Molar mass [kg/mol]
@@ -52,7 +52,7 @@ def fun1(material):
         kM = 140 #Thermal conductivity [W/mK]
         emM = 0.86 #Emissivity [-]
         absoM = 0.96 #Absorptivity [-]
-        T_maxM = 2620 #Maximum operating temperature [degrees Celsius]
+        T_maxM = 2896.0 #Melting temperature [K]
         NISTM = [[24.72736,1231.192],[3.960425,-963.4246],[-1.270706,283.7292],[1.153065,-28.04100],[-0.170246,-712.2047]] #Specific heat capacity matrix (NIST) [J/kg/K]
         limitsM = [1900.0,2896.0,1e10] #[K], NIST limits
         MMM = 95.96e-3 #Molar mass [kg/mol]
@@ -63,7 +63,7 @@ def fun1(material):
         kM = 140 #Thermal conductivity [W/mK]
         emM = 0.88 #Emissivity [-]
         absoM = 0.06 #Absorptivity [-]
-        T_maxM = 2620 #Maximum operating temperature [degrees Celsius]
+        T_maxM = 2896.0 #Melting temperature [K]
         NISTM = [[24.72736,1231.192],[3.960425,-963.4246],[-1.270706,283.7292],[1.153065,-28.04100],[-0.170246,-712.2047]] #Specific heat capacity matrix (NIST) [J/kg/K]
         limitsM = [1900.0,2896.0,1e10] #[K], NIST limits
         MMM = 95.96e-3 #Molar mass [kg/mol]
@@ -74,7 +74,7 @@ def fun1(material):
         kM = 173 #Thermal conductivity [W/mK]
         emM = 0.86 #Emissivity [-]
         absoM = 0.96 #Absorptivity [-]
-        T_maxM = 3400 #Maximum operating temperature [degrees Celsius]
+        T_maxM = 3680.0 #Melting temperature [K]
         NISTM = [[23.95930,-22.57640],[2.639680,90.27980],[1.257750,-44.27150],[-0.254642,7.176630],[-0.048407,-24.09740]] #Specific heat capacity matrix (NIST) [J/kg/K]
         limitsM = [1900.0,3680.0,1e10] #[K], NIST limits
         MMM = 183.84e-3 #Molar mass [kg/mol]
@@ -85,7 +85,7 @@ def fun1(material):
         kM = 173 #Thermal conductivity [W/mK]
         emM = 0.88 #Emissivity [-]
         absoM = 0.06 #Absorptivity [-]
-        T_maxM = 3400 #Maximum operating temperature [degrees Celsius]
+        T_maxM = 3680.0 #Melting temperature [K]
         NISTM = [[23.95930,-22.57640],[2.639680,90.27980],[1.257750,-44.27150],[-0.254642,7.176630],[-0.048407,-24.09740]] #Specific heat capacity matrix (NIST) [J/kg/K]
         limitsM = [1900.0,3680.0,1e10] #[K], NIST limits
         MMM = 183.84e-3 #Molar mass [kg/mol]

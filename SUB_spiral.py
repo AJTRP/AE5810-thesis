@@ -36,6 +36,6 @@ def fun1(RACtype,Lcav,D,pitch):
     
     if RACtype == 1: #cylindrical
         N = Lcav/pitch
-        arcL = np.sqrt(4*np.pi**2*(1/2*D)**2+Lcav**2)*N
+        arcL = np.sqrt(np.pi**2*D**2+(Lcav/N)**2)*N
     
     return(arcL)
